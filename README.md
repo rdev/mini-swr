@@ -44,7 +44,7 @@ yarn add mini-swr
 2. Use the same API as SWR:
 
 ```js
-import useSWR from 'swr'
+import useSWR from 'mini-swr'
 
 const useProfile = (userId) => {
   // Fetcher won't fire if userId isn't ready yet
