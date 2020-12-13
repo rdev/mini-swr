@@ -1,0 +1,24 @@
+{
+  "name": "mini-swr",
+  "version": "1.0.3",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fast-deep-equal": "^3.1.3"
+  },
+  "peerDependencies": {
+    "preact": "^10"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "preact": "^10.5.7"
+  }
+}
